@@ -1,0 +1,93 @@
+h1{
+    color: yellow; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    text-decoration: underline;
+    font-size: xxx-large;
+}
+th{ 
+  color: whitesmoke;
+}
+p{
+    color: pink;
+}
+p:hover{
+      color: blueviolet;
+}
+  hr{
+    color: gold;
+    padding-left: 0px;
+  }
+  hr:hover{
+    color: aliceblue;
+  } 
+  h3{
+    color: aqua;
+  }
+  h3:hover{
+      color: chartreuse;
+  }
+  ol{
+    padding-bottom: 0px;
+    color: peru;
+  }
+  ol:hover{
+    color: aqua;
+  }
+  li{
+    color: magenta;
+  }
+li:hover{
+   color: lightblue;
+}
+label{
+  color: orange;
+}
+label:hover{
+    color: azure;
+}
+fieldset{
+    color: brown;
+}
+fieldset:hover{
+      color: pink;
+}
+strong{
+   color: yellowgreen;
+}
+strong:hover{
+    color: yellow;
+}
+marquee{
+      color: magenta;
+}
+a{
+      color: red;
+}
+#background-video{
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.btn{
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.5cm 0.5cm;
+  color: palevioletred;
+  border: 5px solid var(--cir-accent);
+  border-radius: 3px;
+  transform: transform 0.1s;
+}
+.btn:hover {
+  transform: translateY(-10px);
+  color: blue;
+  background-color: aqua;
+}
